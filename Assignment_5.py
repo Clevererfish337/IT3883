@@ -17,7 +17,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS temperatures (id INTEGER PRIMARY KE
 connection.commit()
 
 # Insert data into the table
-InputFile = "Assignment5Input.txt"
+InputFile = r"C:\Users\cmlc_\source\repos\AdvAppAssignment5\Assignment5input.txt"
 with open(InputFile, 'r') as file:
     rows = []
     for line in file:
